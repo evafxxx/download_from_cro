@@ -33,18 +33,23 @@ a prejmenujte jej napr. na "Rozhlas CRo"
 
 ![Annotation 2024-01-14 153907b](https://github.com/evafxxx/download_from_cro/assets/156581982/8a102856-7ba3-48f3-a5e0-4bd85defc363)
 
-do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://github.com/evafxxx/download_from_cro/rozhlas_cro.js)
+do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://github.com/evafxxx/download_from_cro/blob/main/rozhlas_cro.js)
 
 ![Annotation 2024-01-14 153907c](https://github.com/evafxxx/download_from_cro/assets/156581982/b7026835-1e4e-47f2-b073-00eabac3373b)
+
+a pro sichra ulozte pomoci **Ctrl + S**
+
+zavrete okno nastroje pro vyvojare
 
 
 Nyni mate vse pripravene, abyste kdykoli mohli stahovat mp3 ze stranek rozhlasu ci ziskali vsechny odkazy na stream:
 
-###Priklad mp3:
 
-Chcete stahnout "Mizeni"
+### Priklad mp3:
 
-na dane strance stisknete **Ctrl+Shif+J**
+Chcete stahnout **"Mizeni"**
+
+na dane strance stisknete **Ctrl+Shift+J**
 
 ![Annotation 2024-01-14 153907g](https://github.com/evafxxx/download_from_cro/assets/156581982/f444959c-ab42-4437-a76c-0eb63b1daf07)
 
@@ -61,9 +66,10 @@ Klepnutim na ikonu inicializujete stahovani (pokud je souboru vice, chvili to tr
 
 ![Annotation 2024-01-14 153907i](https://github.com/evafxxx/download_from_cro/assets/156581982/8e76e303-2b19-4aa3-9af8-42f5c477f6e1)
 
-###Priklad stream:
 
-Chcete stahnout Let do nebezpeci
+### Priklad stream:
+
+Chcete stahnout **"Let do nebezpeci"**
 
 na dane strance stisknete **Ctrl+Shif+J**
 
@@ -87,4 +93,4 @@ Klepnutim na ikonu se vam zobrazi seznam url, ktery podstrcite jako parametr you
 ![Annotation 2024-01-14 153907k](https://github.com/evafxxx/download_from_cro/assets/156581982/4b66bdca-ba1f-4e8e-82af-8d3a62fa3312)
 
 
-*Je mozne, ze na stankach rozhlasu se vyskytuji i jine formaty pro prehravani audia, ktere jsem nezaregistrovala(nenavstevu jej) a proto nejsou podchycene ve scriptu*
+*Je mozne, ze na stankach rozhlasu se vyskytuji i jine formaty pro prehravani audia, ktere jsem nezaregistrovala(nenavstevuji jej a neco mi mohlo uniknout) a proto nejsou podchycene ve scriptu*
