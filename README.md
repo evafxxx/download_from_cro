@@ -38,22 +38,53 @@ do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://git
 ![Annotation 2024-01-14 153907c](https://github.com/evafxxx/download_from_cro/assets/156581982/b7026835-1e4e-47f2-b073-00eabac3373b)
 
 
-Nyni mate vse pripravene, abyste kdykoli mohli rychle stahovat ze stranek rozhlasu:
+Nyni mate vse pripravene, abyste kdykoli mohli stahovat mp3 ze stranek rozhlasu ci ziskali vsechny odkazy na stream:
 
-Priklad:
+###Priklad mp3:
+
+Chcete stahnout "Mizeni"
+
+na dane strance stisknete **Ctrl+Shif+J**
+
+![Annotation 2024-01-14 153907g](https://github.com/evafxxx/download_from_cro/assets/156581982/f444959c-ab42-4437-a76c-0eb63b1daf07)
+
+a nalistujete zalozku **Zdroje** ; **Fragment "Rozhlas CRo"**
+
+Fragmenty se spousti pomoci klavesove zkratky **Ctrl + Enter** (nebo klepnutim na Ctrl+Enter tlacitko ve spodni casti okna fragmentu)
+
+V pripade, ze jsou audio-soubory ulozene ve formatu mp3 (= muzete je stahnout na svuj pocitac), signalizuje vam to i ikona
+
+
+![Annotation 2024-01-14 153907h](https://github.com/evafxxx/download_from_cro/assets/156581982/5e6439f7-7906-4b13-b136-c9525a5a5b15)
+
+Klepnutim na ikonu inicializujete stahovani (pokud je souboru vice, chvili to trva)
+
+![Annotation 2024-01-14 153907i](https://github.com/evafxxx/download_from_cro/assets/156581982/8e76e303-2b19-4aa3-9af8-42f5c477f6e1)
+
+###Priklad stream:
+
 Chcete stahnout Let do nebezpeci
+
 na dane strance stisknete **Ctrl+Shif+J**
 
 ![Annotation 2024-01-14 153907e](https://github.com/evafxxx/download_from_cro/assets/156581982/155f207b-942c-427a-818a-737c8a3a1482)
 
+a nalistujete zalozku **Zdroje** ; **Fragment "Rozhlas CRo"**
 
-a naliztujete zalozku :zdroje ; Fragment "Rozhlas CRo"
+Fragmenty se spousti pomoci klavesove zkratky **Ctrl + Enter** (nebo klepnutim na Ctrl+Enter tlacitko ve spodni casti okna fragmentu)
 
-Fragmenty se spouzti pomoci klavesove zkratky **Ctrl + Enter** (nebo klepnutim na Ctrl+Enter tlacitko ve spodni casti okna fragmentu)
+V pripade, ze se jedna o streamy, pak ty nemuzete jednoduse stahnout na svuj pocitac. Nicmene existuji nastroje (vetsinou offline), pomoci nichz si muzete prekonvertovat stream do mp3.
 
-Po spusteni se zobrazi tlacitko pro spusteni stahovani
+Nejcasteji je pro tyto ucely pouzivan program **youtube-dl**, pomoci nehoz lze z prikazove radky provest zadanou konverzi. (youtube-dl existuje i v grafickem provedeni youtube-dl-GUI)
+
+Ze se jedna o stream, opet signalizuje ikona
+
+![Annotation 2024-01-14 153907j](https://github.com/evafxxx/download_from_cro/assets/156581982/3d8be3f3-7309-4387-bea7-55da58b17880)
+
+Klepnutim na ikonu se vam zobrazi seznam url, ktery podstrcite jako parametr youtube-dl ( ci jinemu konvertoru)
 
 
-![Annotation 2024-01-14 153907f](https://github.com/evafxxx/download_from_cro/assets/156581982/81504fae-23aa-413d-aa6d-424aff8b1b85)
+![Annotation 2024-01-14 153907k](https://github.com/evafxxx/download_from_cro/assets/156581982/4b66bdca-ba1f-4e8e-82af-8d3a62fa3312)
 
 
+*Je mozne, ze na stankach rozhlasu se vyskytuji i jine formaty pro prehravani audia, ktere jsem nezaregistrovala(nenavstevu jej) a proto nejsou podchycene ve scriptu*
