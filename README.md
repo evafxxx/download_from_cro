@@ -14,12 +14,23 @@ tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stra
 proste vsechny, ktere umoznuji ukladat js scripty do Snippets (Firefox umoznuje pracovat se snippet, ale neumi jej ukladat, takze se script musi kopirovat do FF snippetu po kazdym refresh stranky)
 Snippets se v Chrome nazyvaji **"Fragmenty"**
 
-**Jak pracovat se scriptem (napr.v Chrome)**
+**Jak pracovat se scriptem v Chrome **
 - na strance Ceskeho rozhlasu otevrete devTools (**Ctrl+Shift+J**)
 - ( nebo nabidka->dalsi nastroje->nastroje pro vyvojare) 
 - ( nebo klik na strance  pravym  tlacitkem mysi; volba Prozkoumat)
-  
 
+- **Jak pracovat se scriptem v Edge**
+  - na strance Ceskeho rozhlasu otevrete devTools (**Ctrl+Shift+I**) - 
+- ( nebo nabidka->dalsi nastroje->vyvojarske nastroje) 
+- ( nebo klik na strance  pravym  tlacitkem mysi; volba Zkontrolovat)
+
+**POZOR** 
+- **chrome** - vyvolani nastroju pro vyvojare (**Ctrl+Shift+J**)
+- **edge** - vyvolani nastroju pro vyvojare (**Ctrl+Shift+I**)
+  (to, ze to narodni prostredi do Chrome delal nekdo jiny nez do Edge chapu, ale proc jina klavesova zkratka??)
+
+  v nasledujicim budou ukazky z Chrome - ti kteri pracuji v Edge musi pouzit **Ctrl+Shift+I** namisto zminovane zkratky **Ctrl+Shift+J** !!
+  
 
 v nastrojich pro vyvojare kliknete na "Zdroje" (=sources) 1. a pote, pokud nevidite zalozku "Fragmenty"(=Snippets) kliknete na 2. a zvolte "Fragmenty"
 
