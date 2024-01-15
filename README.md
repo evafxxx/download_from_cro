@@ -19,8 +19,8 @@ Snippets se v Chrome nazyvaji **"Fragmenty"**
 - ( nebo nabidka->dalsi nastroje->nastroje pro vyvojare) 
 - ( nebo klik na strance  pravym  tlacitkem mysi; volba Prozkoumat)
 
-- **Jak pracovat se scriptem v Edge**
-  - na strance Ceskeho rozhlasu otevrete devTools (**Ctrl+Shift+I**) - 
+**Jak pracovat se scriptem v Edge**
+- na strance Ceskeho rozhlasu otevrete devTools (**Ctrl+Shift+I**) - 
 - ( nebo nabidka->dalsi nastroje->vyvojarske nastroje) 
 - ( nebo klik na strance  pravym  tlacitkem mysi; volba Zkontrolovat)
 
