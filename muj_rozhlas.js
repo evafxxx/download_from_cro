@@ -224,7 +224,7 @@ function download_mp3(){
              div0.append(ta);
            }
            var blob = new Blob([output_text], {'type':'data:text/plain;charset=utf-8'})
-            var name = _playlist[0]['title'] + '.txt';
+            var name = title + '.txt';
            let blobUrl = window.URL.createObjectURL(blob);
            force_download(blobUrl, name);
            var span = document.getElementById('span_dnlded');
@@ -282,7 +282,7 @@ try {
     pw = pws[0];
     var de = JSON.parse(pw.attributes['data-entry'].value); 
     uuid = de['uuid'];
-    getJSON("https://api.mujrozhlas.cz/episodes/7961554b-a36b-340a-bfb8-89b11252a650",
+    getJSON("https://api.mujrozhlas.cz/episodes/" +uuid,
    function(err, data) {
        if (err !== null) {
             alert('Something went wrong: ' + err);
