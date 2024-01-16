@@ -2,10 +2,19 @@
 
 
 
-tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stranek CRo
+tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stranek CRo 
+
+tedy ze stranek s domenou 
+
+    rozhlas.cz  
+    
+nikoliv ze stranek s domenou
+
+    mujrozhlas.cz
 
 
-**doporucene browsery:**
+
+**doporucene browsery:** (testovano v Edge a Chrome)
 
     Chrome
     Safari
@@ -98,7 +107,7 @@ Ze se jedna o stream, opet signalizuje ikona
 
 ![Annotation 2024-01-14 153907j](https://github.com/evafxxx/download_from_cro/assets/156581982/3d8be3f3-7309-4387-bea7-55da58b17880)
 
-Klepnutim na ikonu se vam zobrazi seznam url, ktery podstrcite jako parametr youtube-dl ( ci jinemu konvertoru)
+Klepnutim na ikonu se vam zobrazi seznam url (a zaroven se url streamu ulozi do textoveho souboru), ktery podstrcite jako parametr youtube-dl ( ci jinemu konvertoru). 
 
 
 ![Annotation 2024-01-14 153907k](https://github.com/evafxxx/download_from_cro/assets/156581982/4b66bdca-ba1f-4e8e-82af-8d3a62fa3312)
