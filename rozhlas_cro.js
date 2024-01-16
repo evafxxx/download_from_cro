@@ -131,7 +131,11 @@ function force_download(blob, filename) {
 }
 function  download_ready() {
   dnldmp3files = dnldmp3files.splice(1);
-  if (!dnldmp3files.length) {return true}
+  if (!dnldmp3files.length) {
+     var span = document.getElementById('span_dnlded');
+     span.style.display='none';
+     return true;
+  }
   download_resource( dnldmp3files[0][1], dnldmp3files[0][0] ) ;
 }
 
@@ -181,7 +185,10 @@ function download_mp3(){
          } 
          var d = document.getElementById('dnld_mp3');
           if (d) {
+            
+            if  (!document.getElementById('span_dnlded') ) {
             var span =document.createElement('span')
+            span.id = 'span_dnlded'; 
             span.style.position='absolute';
             span.style.width='50px';
             span.style.height='50px';
@@ -191,7 +198,11 @@ function download_mp3(){
             var svg =document.createElement('svg')
             d.append(span);
             span.append(svg);
-            svg.outerHTML = dnlded;          
+            svg.outerHTML = dnlded; 
+            } else {
+              var span = document.getElementById('span_dnlded');
+              span.style.display='inline-block';
+            }  
           }
          if (output_text != '') {
            if (!document.getElementById('dnld_stream') ) {
@@ -215,6 +226,12 @@ function download_mp3(){
             var name = _playlist[0]['title'] + '.txt';
            let blobUrl = window.URL.createObjectURL(blob);
            force_download(blobUrl, name);
+           var span = document.getElementById('span_dnlded');
+           if (span) {
+             span.style.display='none';
+           }
+           
+
            // mrpm.append('<div><div style="color:blue">pro stazeni a konverzi streamu do mp3 vyuzijte napr. program youtube-dl</div>
            //             <textarea style="width: 100%;height: 100px;line-height: 1.2;font-size: 0.9em;">'+output_text + '</textarea></div>');           
              
