@@ -53,11 +53,15 @@ a prejmenujte jej napr. na "Rozhlas CRo"
 
 ![Annotation 2024-01-14 153907b](https://github.com/evafxxx/download_from_cro/assets/156581982/8a102856-7ba3-48f3-a5e0-4bd85defc363)
 
-do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://github.com/evafxxx/download_from_cro/blob/main/rozhlas_cro.js)
+.
+
+### do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://github.com/evafxxx/download_from_cro/blob/main/rozhlas_cro.js)
+
+.
 
 ![Annotation 2024-01-14 153907c](https://github.com/evafxxx/download_from_cro/assets/156581982/b7026835-1e4e-47f2-b073-00eabac3373b)
 
-a pro sichra ulozte pomoci **Ctrl + S**
+a ulozte pomoci **Ctrl + S**
 
 zavrete okno nastroje pro vyvojare
 
