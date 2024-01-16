@@ -4,16 +4,6 @@
 
 tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stranek CRo 
 
-tedy ze stranek s domenou 
-
-    rozhlas.cz  
-    
-nikoliv ze stranek s domenou
-
-    mujrozhlas.cz
-
-
-
 **doporucene browsery:** (testovano v Edge a Chrome)
 
     Chrome
@@ -57,17 +47,30 @@ a prejmenujte jej napr. na "Rozhlas CRo"
 
 ### do tohoto noveho fragmentu zkopirujte obsah souboru [rozhlas_cro.js](https://github.com/evafxxx/download_from_cro/blob/main/rozhlas_cro.js)
 
-.
-
 ![Annotation 2024-01-14 153907c](https://github.com/evafxxx/download_from_cro/assets/156581982/b7026835-1e4e-47f2-b073-00eabac3373b)
+
+a ulozte pomoci **Ctrl + S**
+
+---
+
+Analogicky pro stranky z domeny "mujrozhlas.cz" si vytvorte novy fragment a prejmenujte jej na "mujRozhlas" 
+
+### do tohoto noveho fragmentu zkopirujte obsah souboru [muj_rozhlas.js](https://github.com/evafxxx/download_from_cro/blob/main/muj_rozhlas.js)
 
 a ulozte pomoci **Ctrl + S**
 
 zavrete okno nastroje pro vyvojare
 
 
-Nyni mate vse pripravene, abyste kdykoli mohli stahovat mp3 ze stranek rozhlasu ci ziskali vsechny odkazy na stream:
+Nyni mate vse pripravene, abyste kdykoli mohli stahovat mp3 ze stranek rozhlasu ci ziskali vsechny odkazy na stream (v zavislosti na domene spoustejte):
 
+- **rozhlas.cz** - fragment "Rozhlas CRo"
+
+- **mujrozhlas.cz** - fragment "mujRozhlas"
+   
+---
+
+Nasledujici priklady jsou z domeny "rozhlas.cz"
 
 ### Priklad mp3:
 
