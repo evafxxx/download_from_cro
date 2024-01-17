@@ -108,7 +108,7 @@ Fragmenty se spousti pomoci klavesove zkratky **Ctrl + Enter** (nebo klepnutim n
 
 V pripade, ze se jedna o streamy, pak ty nemuzete jednoduse stahnout na svuj pocitac. Nicmene existuji nastroje (vetsinou offline), pomoci nichz si muzete prekonvertovat stream do mp3.
 
-Nejcasteji je pro tyto ucely pouzivan program **youtube-dl**, pomoci nehoz lze z prikazove radky provest zadanou konverzi. (youtube-dl existuje i v grafickem provedeni youtube-dl-GUI)
+Nejcasteji je pro tyto ucely pouzivan program **youtube-dl** (popripade **yt-dlp**), pomoci nehoz lze z prikazove radky provest zadanou konverzi. (youtube-dl existuje i v grafickem provedeni youtube-dl-GUI)
 
 jako priklad funkcni graficke odnoze youtube-dl muze slouzit [YDL-UI](https://github.com/Maxstupo/ydl-ui/releases), kde je odkaz na [YDL-UI_v2.9.1.0_Portable.zip](https://github.com/Maxstupo/ydl-ui/releases/download/v2.9.1/YDL-UI_v2.9.1.0_Portable.zip) 
 
