@@ -110,6 +110,12 @@ V pripade, ze se jedna o streamy, pak ty nemuzete jednoduse stahnout na svuj poc
 
 Nejcasteji je pro tyto ucely pouzivan program **youtube-dl**, pomoci nehoz lze z prikazove radky provest zadanou konverzi. (youtube-dl existuje i v grafickem provedeni youtube-dl-GUI)
 
+jako priklad funkcniho graficke odnoze youtube-dl muze slouzit [YDL-UI](https://github.com/Maxstupo/ydl-ui/releases/download/v2.9.1/YDL-UI_v2.9.1.0_Portable.zip) 
+
+{git pro YDL-UI](https://github.com/Maxstupo/ydl-ui/tree/v2.2.0)
+
+tento portable program(bez instalace) jsme testovali (velke podekovani nicku vsiko) na streamy CRo.
+
 Ze se jedna o stream, opet signalizuje ikona
 
 ![Annotation 2024-01-14 153907j](https://github.com/evafxxx/download_from_cro/assets/156581982/3d8be3f3-7309-4387-bea7-55da58b17880)
