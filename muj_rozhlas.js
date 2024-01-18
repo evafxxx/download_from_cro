@@ -202,7 +202,7 @@ function download_api_links(){
                   if (_audiolinks[link_idx][j]['variant']=='dash' ) {
                       output_text = output_text + href + '\n';
                   } else if (_audiolinks[link_idx][j]['variant']=='mp3' ||_audiolinks[link_idx][j]['variant']=='m4a' ) {
-                     var suffix = (_audiolinks.length > 1 ? ( '_'+(link_idx + 1)) : '') + () _audiolinks[link_idx].length ==1 ? '' :'_'+j);
+                     var suffix = (_audiolinks.length > 1 ? ( '_'+(link_idx + 1)) : '') + ( _audiolinks[link_idx].length ==1 ? '' :'_'+j);
                       var name = title[link_idx] + suffix + '.' + _audiolinks[link_idx][j]['variant'];
                       dnldmp3files.push([name,href]);      
                       
