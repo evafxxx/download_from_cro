@@ -172,8 +172,8 @@ function download_mp3() {
             for (var i = 0; i < _playlist.length; i++) {
                 var _audiolinks = _playlist[i]['audioLinks'];
                 var used = {};
-                for (var j = 0; j < _audiolinks[link_idx].length; j++) {
-                    used[_audiolinks[link_idx][j]['variant']] = j;
+                for (var j = 0; j < _audiolinks.length; j++) {
+                    used[_audiolinks[j]['variant']] = j;
                 }
                 var j = -1;
                 if (typeof used['mp3'] !== 'undefined') {
@@ -185,13 +185,13 @@ function download_mp3() {
                 }
                 if (j > -1) {
                     var href = _audiolinks[j]['url'];
-                    var suffix = '_' + i;
+                    var suffix = '_' + (i+1);
                     if (_audiolinks[j]['variant'] == 'mp3' || _audiolinks[j]['variant'] == 'm4a') {
                         var name = _playlist[i]['title'] + suffix + '.' + _audiolinks[j]['variant'];
                         dnldmp3files.push([name, href]);
 
 
-                    } else if (_audiolinks[link_idx][j]['variant'] == 'dash') {
+                    } else if (_audiolinks[j]['variant'] == 'dash') {
                         var hrefhuman = href.replace('manifest.mpd', 'manifest-' + _playlist[i]['title'] + suffix + '.mpd')
                         output_text = output_text + hrefhuman + '\n';
                     }
