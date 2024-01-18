@@ -42,27 +42,27 @@ if (!pws.length) {
     if (cel.length) {
         var pwcs = document.getElementsByClassName('c-episodes');
     } else {
-        cel = document.getElementsByClassName('c-shows__list')
-        if (cel.length) {
-            pwc = document.getElementsByClassName('c-shows')[0].previousElementSibling;
-            pwc_is_set = true;
-        }
+       cel = document.getElementsByClassName('c-shows__list')
+       if (cel.length) {
+         pwc = document.getElementsByClassName('c-shows')[0].previousElementSibling;
+         pwc_is_set = true;
+       }  
+         
+    }  
+   if (cel.length) {
+       if (!pwc_is_set){
+        if (pwcs.length) {
+            pwc = pwcs[0];
 
-    }
-    if (cel.length) {
-        if (!pwc_is_set) {
-            if (pwcs.length) {
-                pwc = pwcs[0];
-
-            } else {
-                pwc = cel[0];
-            }
+        } else {
+            pwc = cel[0];
         }
+       }
         for (var i = 0; i < cel[0].getElementsByTagName('article').length; i++) {
             var dp = JSON.parse(cel[0].getElementsByTagName('article')[i].attributes['data-entry'].value);
             uuids.push(dp['uuid'])
         }
-    }
+    } 
 
 
 } else {
@@ -213,31 +213,31 @@ function download_api_links() {
 
         // dp=JSON.parse(mrp.attributes['data-player'].value ) ;    
         // _playlist = dp['data']['playlist']; 
-        var used = {};
+        var used={};
         for (var j = 0; j < _audiolinks[link_idx].length; j++) {
-            used[_audiolinks[link_idx][j]['variant']] = j;
-        }
+            used[_audiolinks[link_idx][j]['variant']]=j;
+        }   
         var j = -1;
-        if (typeof used['mp3'] !== 'undefined') {
-            j = used['mp3'];
-        } else if (typeof used['m4a'] !== 'undefined') {
-            j = used['m4a'];
-        } else if (typeof used['dash'] !== 'undefined') {
-            j = used['dash'];
-        }
-        if (j > -1) {
+        if (typeof used['mp3'] !=='undefined') {
+            j=used['mp3'];
+        } else  if (typeof used['m4a'] !=='undefined') {
+            j=used['m4a'];
+        } else  if (typeof used['dash'] !=='undefined') {    
+            j=used['dash'];
+        }    
+        if (j>-1) {
 
             var href = _audiolinks[link_idx][j]['url'];
-            var suffix = '_' + link_idx;
+            var suffix = '_' + (link_idx+1);
             if (_audiolinks[link_idx][j]['variant'] == 'mp3' || _audiolinks[link_idx][j]['variant'] == 'm4a') {
                 var name = title[link_idx] + suffix + '.' + _audiolinks[link_idx][j]['variant'];
                 dnldmp3files.push([name, href]);
 
 
             } else if (_audiolinks[link_idx][j]['variant'] == 'dash') {
-                var hrefhuman = href.replace('manifest.mpd', 'manifest-' + title[link_idx] + suffix + '.mpd')
+               var hrefhuman = href.replace('manifest.mpd', 'manifest-'+title[link_idx] + suffix + '.mpd')              
                 output_text = output_text + hrefhuman + '\n';
-            }
+            } 
         }
 
     }
@@ -346,8 +346,8 @@ function create_div_icon(svgicon) {
     d.style.right = '0em';
     d.style.top = '20px';
     d.style.position = 'absolute';
-    d.style['background-color'] = 'white';
-
+    d.style['background-color']= 'white';
+  
     d.onclick = function() {
         download_mp3();
     }
@@ -382,7 +382,7 @@ if (uuids.length) {
                         var spec_type = false;
                         for (var j = 0; j < _audiolinks[0].length; j++) {
                             var href = _audiolinks[0][j]['url'];
-                            if (_audiolinks[0][j]['variant'] == 'mp3' || _audiolinks[0][j]['variant'] == 'm4a') {
+                             if (_audiolinks[0][j]['variant'] == 'mp3' || _audiolinks[0][j]['variant'] == 'm4a') {
                                 create_div_icon(dnldmp3);
                                 spec_type = true;
                                 break;
@@ -390,7 +390,7 @@ if (uuids.length) {
                                 create_div_icon(dnldstream);
                                 spec_type = true;
                                 break;
-                            }
+                            } 
 
                             if (spec_type) {
                                 break;
