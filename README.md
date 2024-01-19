@@ -127,3 +127,5 @@ Klepnutim na ikonu se vam zobrazi seznam url (a zaroven se url streamu ulozi do 
 
 
 *Je mozne, ze na stankach rozhlasu se vyskytuji i jine formaty pro prehravani audia, ktere jsem nezaregistrovala(nenavstevuji jej a neco mi mohlo uniknout) a proto nejsou podchycene ve scriptu*
+
+***Hlaseni o problemech piste primo zde, do [Issues](https://github.com/evafxxx/download_from_cro/issues)***
