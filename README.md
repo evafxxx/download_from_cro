@@ -4,6 +4,8 @@
 
 tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stranek CRo 
 
+Pokud si chcete praci zjednodusit a nespoustet javascriptovy kod prejdete k [vylepseni](https://github.com/evafxxx/download_from_cro/tree/main/zalozky), ktery navrhl nick **cerwec**
+
 **doporucene browsery:** (testovano v Edge a Chrome)
 
     Chrome
