@@ -6,6 +6,8 @@ tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stra
 
 Pokud si chcete praci zjednodusit a nespoustet javascriptovy kod, prejdete primo k [vylepseni](https://github.com/evafxxx/download_from_cro/tree/main/zalozky), ktery navrhl nick **cerwec**
 
+Jak postupovat, pokud je audio ve streamu, je popsano [zde]
+
 **doporucene browsery:** (testovano v Edge a Chrome)
 
     Chrome
@@ -107,6 +109,8 @@ na dane strance stisknete **Ctrl+Shif+J**
 a nalistujete zalozku **Zdroje** ; **Fragment "Rozhlas CRo"**
 
 Fragmenty se spousti pomoci klavesove zkratky **Ctrl + Enter** (nebo klepnutim na Ctrl+Enter tlacitko ve spodni casti okna fragmentu)
+
+#### Streamy
 
 V pripade, ze se jedna o streamy, pak ty nemuzete jednoduse stahnout na svuj pocitac. Nicmene existuji nastroje (vetsinou offline), pomoci nichz si muzete prekonvertovat stream do mp3.
 
