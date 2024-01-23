@@ -20,3 +20,9 @@ javascriptovy kod na stahovani mp3/adres streamu neni nutne spoustet z nastroje 
 - prepiste nazev na MujRozhlas (nebo tak nejak podobne)
 - URL adresu prepiste scriptem pro [mujrozhlas.cz](https://github.com/evafxxx/download_from_cro/blob/main/zalozky/zalozka_mujrozhlas_cz) od nicku **cerwec**
 
+
+no a na zaver slova samotneho autora vychytavky:
+
+> Na a pak stačí na požadované stránce ťuknout na odkaz.
+> 
+> Tohle je - jednodušší, fungovat by to mělo v libovolném prohlížeči, který správně zvládá javascript 
