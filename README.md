@@ -6,7 +6,8 @@ tento script je urcen pro zjednoduseni prace se stahovanim audio-souboru ze stra
 
 Pokud si chcete praci zjednodusit a nespoustet javascriptovy kod, prejdete primo k [vylepseni](https://github.com/evafxxx/download_from_cro/tree/main/zalozky), ktery navrhl nick **cerwec**
 
-Jak postupovat, pokud je audio ve streamu, je popsano [zde]
+Jak postupovat, pokud je audio ve streamu, je popsano [zde](https://github.com/evafxxx/download_from_cro/blob/main/README.md#streamy)
+
 
 **doporucene browsery:** (testovano v Edge a Chrome)
 
